@@ -1,0 +1,36 @@
+body {
+    background-image: url('images/Taieri.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+}
+
+h1 {
+    font-family: 'Merienda One', cursive;
+    font-size: 50px;
+}
+
+#icon {
+    height: 130px;
+    width: 180px;
+}
+
+img {
+    height: 300px;
+    width: 250px;
+}
+
+.card-title {
+    font-family: 'Volkhov', serif;
+}
